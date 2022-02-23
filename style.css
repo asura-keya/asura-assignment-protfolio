@@ -1,0 +1,110 @@
+
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin:0;
+}
+
+.orange-color{
+    color:tomato;
+}
+.flexible-container{
+    display:flex;
+    margin-bottom: 150px;
+  
+}
+
+
+h1{
+   padding-left: 2%;
+    font-size:50px;
+    border-left: 3px solid;
+    border-image:linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+  
+
+}
+h2{
+    font-size:40px;
+}
+
+.half-width{
+    width: 50%;
+padding: 2%;
+margin-left: 5%;
+
+
+}
+.half-width img{
+    width:100%;
+   
+}
+.take-center{
+    text-align: center;
+}
+.explore-button{
+    
+    text-decoration: none;
+    background-image: linear-gradient(45deg,salmon, tomato);
+    color:white;
+    padding:10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.goals-items{
+    width:25%;
+    margin-left: 5%;
+    margin-right: 2%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 40px gray;
+
+}
+
+.goals-items img{
+    height: 100px;
+    
+}
+#mission-area{
+   background-color: lightcyan;
+   
+}
+#vision-area{
+    background-color: lightgray;
+}
+    
+#success-area{
+    background-color: lightpink;
+}
+
+.learning-stage{
+    margin-right: 50px;
+    margin-left:50px;
+    background-image: url(image/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px;
+}
+.Global-area{
+    margin-right: 50px;
+    margin-left:50px;
+    background-image: url(image/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 110px;
+
+}
+#awesome-area{
+    text-align: center;
+}
+#awesome-area img{
+    height:200px;
+
+}
+footer{
+
+    text-align: center;
+    background-color: black;
+    color:white
+}
